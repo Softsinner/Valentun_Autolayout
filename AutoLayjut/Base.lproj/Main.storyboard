@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayjut" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dnd-dN-Kgs">
+                                <rect key="frame" x="167.5" y="438" width="79" height="30"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Push to run">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aGD-MC-9VD" kind="show" id="yvy-BM-nLu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dnd-dN-Kgs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8Lc-ID-CdA"/>
+                            <constraint firstItem="dnd-dN-Kgs" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="XUX-7K-JLw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="125.4872563718141"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="17m-jf-LIj">
+            <objects>
+                <viewController id="aGD-MC-9VD" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="cie-V1-dsb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNt-GJ-NPY">
+                                <rect key="frame" x="150" y="50" width="169" height="50"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Pub-sd-FNk"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="MapaMagic">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="32" name="AndaleMono"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTG-aT-EKI">
+                                <rect key="frame" x="20" y="323" width="171" height="52"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="rH7-Qa-f1F"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="What's New">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="32" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DR-Qf-RpF">
+                                <rect key="frame" x="20" y="391.5" width="97.5" height="21.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Version 1.5.1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wui-Yr-Tpw">
+                                <rect key="frame" x="16" y="421" width="295" height="80"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="295" id="Qc9-RK-kNi"/>
+                                    <constraint firstAttribute="height" constant="80" id="rTD-JK-nHF"/>
+                                </constraints>
+                                <string key="text">- Додано фкнкціонал відновлення паролю 
+- Додано пункт налаштування до меню 
+- Додано нове місто</string>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Мобільний додаток для слідкування за рухом громадського транспорту в м.Черкаси у реальному часі. MapaMagic надає дані про" translatesAutoresizingMaskIntoConstraints="NO" id="k8D-VL-ueM">
+                                <rect key="frame" x="16" y="490" width="295" height="80"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9c-Sd-JKV">
+                                <rect key="frame" x="150" y="104.5" width="106" height="21.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="eCreative LLP">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <color key="shadowColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapa" highlightedImage="mapa" translatesAutoresizingMaskIntoConstraints="NO" id="VJ5-1o-yNT">
+                                <rect key="frame" x="20" y="60" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="GQ4-eX-bis"/>
+                                    <constraint firstAttribute="width" constant="100" id="r7c-em-OA6"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L6L-Ix-vOj">
+                                <rect key="frame" x="150" y="131" width="70" height="30"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="zAk-Ff-1hS"/>
+                                </constraints>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="OPEN">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" scale="large" weight="heavy"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="le8-lP-CEX">
+                                <rect key="frame" x="326" y="131" width="24" height="26"/>
+                                <state key="normal" image="square.and.arrow.up" catalog="system">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2PL-kz-Yov">
+                                <rect key="frame" x="320" y="514" width="36" height="30"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="more">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NhD-0X-Ctz">
+                                <rect key="frame" x="320" y="450" width="36" height="30"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="more">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="Wui-Yr-Tpw" firstAttribute="leading" secondItem="oBH-cu-W4J" secondAttribute="leading" constant="16" id="0fc-dc-DQl"/>
+                            <constraint firstItem="oBH-cu-W4J" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9DR-Qf-RpF" secondAttribute="trailing" symbolic="YES" id="5kb-fG-V1q"/>
+                            <constraint firstItem="9DR-Qf-RpF" firstAttribute="top" secondItem="XTG-aT-EKI" secondAttribute="bottom" constant="16.5" id="6QI-GT-RRk"/>
+                            <constraint firstItem="oBH-cu-W4J" firstAttribute="trailing" secondItem="PNt-GJ-NPY" secondAttribute="trailing" constant="95" id="6xs-J5-0x8"/>
+                            <constraint firstItem="oBH-cu-W4J" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="j9c-Sd-JKV" secondAttribute="trailing" symbolic="YES" id="7W3-EA-F3W"/>
+                            <constraint firstItem="Wui-Yr-Tpw" firstAttribute="trailing" secondItem="k8D-VL-ueM" secondAttribute="trailing" id="9KH-uJ-T3e"/>
+                            <constraint firstItem="2PL-kz-Yov" firstAttribute="centerX" secondItem="le8-lP-CEX" secondAttribute="centerX" id="C8m-Nj-J54"/>
+                            <constraint firstItem="oBH-cu-W4J" firstAttribute="trailing" secondItem="le8-lP-CEX" secondAttribute="trailing" constant="64" id="D54-VE-tN5"/>
+                            <constraint firstItem="2PL-kz-Yov" firstAttribute="leading" secondItem="k8D-VL-ueM" secondAttribute="trailing" constant="9" id="EGI-HN-PLf"/>
+                            <constraint firstItem="PNt-GJ-NPY" firstAttribute="top" secondItem="oBH-cu-W4J" secondAttribute="top" constant="50" id="EWq-Op-TEb"/>
+                            <constraint firstItem="NhD-0X-Ctz" firstAttribute="leading" secondItem="Wui-Yr-Tpw" secondAttribute="trailing" constant="9" id="IPa-w6-WvK"/>
+                            <constraint firstItem="PNt-GJ-NPY" firstAttribute="leading" secondItem="j9c-Sd-JKV" secondAttribute="leading" id="KO2-vz-B2n"/>
+                            <constraint firstItem="L6L-Ix-vOj" firstAttribute="leading" secondItem="j9c-Sd-JKV" secondAttribute="leading" id="LAT-92-s1X"/>
+                            <constraint firstItem="k8D-VL-ueM" firstAttribute="top" secondItem="9DR-Qf-RpF" secondAttribute="bottom" constant="77" id="LkN-8C-n06"/>
+                            <constraint firstItem="9DR-Qf-RpF" firstAttribute="leading" secondItem="oBH-cu-W4J" secondAttribute="leading" constant="20" id="P3h-iD-3Fo"/>
+                            <constraint firstItem="oBH-cu-W4J" firstAttribute="bottom" secondItem="Wui-Yr-Tpw" secondAttribute="bottom" constant="307" id="Pna-2x-Z1B"/>
+                            <constraint firstItem="oBH-cu-W4J" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XTG-aT-EKI" secondAttribute="trailing" symbolic="YES" id="Qo8-bH-lC4"/>
+                            <constraint firstItem="NhD-0X-Ctz" firstAttribute="trailing" secondItem="2PL-kz-Yov" secondAttribute="trailing" id="Qwh-NG-zkM"/>
+                            <constraint firstItem="VJ5-1o-yNT" firstAttribute="top" secondItem="oBH-cu-W4J" secondAttribute="top" constant="60" id="TIL-iX-wnR"/>
+                            <constraint firstItem="L6L-Ix-vOj" firstAttribute="top" secondItem="le8-lP-CEX" secondAttribute="top" id="YlY-GQ-htU"/>
+                            <constraint firstItem="oBH-cu-W4J" firstAttribute="bottom" secondItem="k8D-VL-ueM" secondAttribute="bottom" constant="238" id="ZTf-3A-cbT"/>
+                            <constraint firstItem="j9c-Sd-JKV" firstAttribute="leading" secondItem="PNt-GJ-NPY" secondAttribute="leading" id="drU-Em-Yqf"/>
+                            <constraint firstItem="L6L-Ix-vOj" firstAttribute="top" secondItem="j9c-Sd-JKV" secondAttribute="bottom" constant="5" id="ej6-3g-hav"/>
+                            <constraint firstItem="Wui-Yr-Tpw" firstAttribute="leading" secondItem="k8D-VL-ueM" secondAttribute="leading" id="gGk-PY-ak7"/>
+                            <constraint firstItem="2PL-kz-Yov" firstAttribute="top" secondItem="NhD-0X-Ctz" secondAttribute="bottom" constant="34" id="iZA-DU-hDG"/>
+                            <constraint firstItem="Wui-Yr-Tpw" firstAttribute="top" secondItem="9DR-Qf-RpF" secondAttribute="bottom" constant="8" id="lT5-7L-gKy"/>
+                            <constraint firstItem="VJ5-1o-yNT" firstAttribute="leading" secondItem="XTG-aT-EKI" secondAttribute="leading" id="qSh-Hq-nvW"/>
+                            <constraint firstItem="XTG-aT-EKI" firstAttribute="leading" secondItem="oBH-cu-W4J" secondAttribute="leading" constant="20" id="tCx-b4-BOf"/>
+                            <constraint firstItem="oBH-cu-W4J" firstAttribute="bottom" secondItem="2PL-kz-Yov" secondAttribute="bottom" constant="264" id="tSq-Te-gaC"/>
+                            <constraint firstItem="9DR-Qf-RpF" firstAttribute="top" secondItem="XTG-aT-EKI" secondAttribute="bottom" constant="16.5" id="vDq-Q2-lhv"/>
+                            <constraint firstItem="XTG-aT-EKI" firstAttribute="top" secondItem="L6L-Ix-vOj" secondAttribute="bottom" constant="162" id="wqM-Bk-vS4"/>
+                            <constraint firstItem="L6L-Ix-vOj" firstAttribute="top" secondItem="PNt-GJ-NPY" secondAttribute="bottom" constant="31" id="z7l-Eb-kDB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oBH-cu-W4J"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T9s-zR-2SI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wOL-GY-V21" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="831.20000000000005" y="125.4872563718141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mapa" width="480" height="480"/>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
+    </resources>
+</document>
